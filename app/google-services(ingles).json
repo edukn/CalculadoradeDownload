@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "100549502523",
+    "firebase_url": "https://download-time-calculator-d693a.firebaseio.com",
+    "project_id": "download-time-calculator-d693a",
+    "storage_bucket": "download-time-calculator-d693a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:100549502523:android:d2c6eaa81f41d73e",
+        "android_client_info": {
+          "package_name": "com.edukian.download_time_calculator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "100549502523-jk4e0iug2u6g00uojbt7poknnossqbhq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDndlpKPDYvvIm-tTRZsVWDo57zzoGBuU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

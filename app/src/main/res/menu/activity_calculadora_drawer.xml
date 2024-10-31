@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <!--<item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Calculadora de Download" />-->
+        <item
+            android:id="@+id/nav_segundo_layout"
+            android:icon="@drawable/ic_action_conversor"
+            android:title="Conversor de Velocidades" />
+        <item
+            android:id="@+id/teste_velocidade"
+            android:icon="@drawable/ic_action_teste_velocidade"
+            android:title="Teste de Velocidade" />
+        <item
+            android:id="@+id/historico"
+            android:icon="@drawable/ic_action_historico"
+            android:title="Histórico de Downloads" />
+       <!-- <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Tools" /> -->
+    </group>
+
+    <item android:title="Social">
+        <menu>
+             <item
+                 android:id="@+id/nav_share"
+                 android:icon="@drawable/ic_menu_share"
+                 android:title="Compartilhe o app" />
+           <!--   <item
+                 android:id="@+id/nav_send"
+                 android:icon="@drawable/ic_menu_send"
+                 android:title="Enviar" /> -->
+            <item
+                android:id="@+id/info"
+                android:icon="@drawable/ic_action_info"
+                android:title="Info do app" />
+        </menu>
+    </item>
+
+</menu>

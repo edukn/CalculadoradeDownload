@@ -1,0 +1,71 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+    }
+    //compileSdkVersion 33
+    //public void compileSdkVersion(     int apiLevel 33 );
+
+        defaultConfig {
+            compileSdk 33
+        }
+
+
+
+    //buildToolsVersion '34.0.0'
+    // gradle 6.1.1, cima 4.0.2
+    defaultConfig {
+        applicationId 'com.edukian.calculadora_download.calculadoradedownload'
+        minSdkVersion 24
+        targetSdkVersion 33
+        versionName '4.6'
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        //testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        versionCode 10
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+        }
+    }
+    productFlavors {
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_10
+        targetCompatibility JavaVersion.VERSION_1_10
+
+    }
+    namespace 'com.edukian.calculadora_download.calculadoradedownload'
+}
+// androidx.test.espresso:espresso-core:
+dependencies {
+  /*  compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })*/
+   /* compile 'com.android.support:appcompat-v7:25.1.0'
+    compile 'com.android.support:design:25.1.0'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.android.support:support-v4:25.1.0'*/
+    implementation 'androidx.appcompat:appcompat:1.5.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    //implementation 'com.google.android.material:material:1.6.0-rc01'
+   // implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'com.google.android.material:material:1.7.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    //compile 'com.android.support:support-v5'
+    // compile 'com.google.firebase:firebase-core:11.8.0'
+    testImplementation 'junit:junit:4.12'
+    implementation 'com.google.android.gms:play-services-ads:22.4.0'
+
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    testImplementation 'junit:junit:4.12'
+   // obsoleto implementation 'com.google.android.gms:play-services-ads:11.8.0'
+}
+apply plugin: 'com.google.gms.google-services'

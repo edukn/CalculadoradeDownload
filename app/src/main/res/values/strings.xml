@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Calculadora de Download</string>
+    <string name="banner_ad_unity_id">ca-app-pub-3940256099942544/6300978111</string>
+    <!-- anuncio id de teste: ca-app-pub-3940256099942544/6300978111 -->
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string-array name="formato_arquivo">
+        <item>GB(GigaByte)</item>
+        <item>MB(MegaByte)</item>
+        <item>TB(TeraByte)</item>
+    </string-array>
+    <string-array name="velocidade">
+        <item>Mbps</item>
+        <item>MB/s</item>
+        <item>KB/s</item>
+        <item>Gbps</item>
+    </string-array>
+    <string-array name="conversor">
+        <item>Mbps</item>
+        <item>Kbps</item>
+        <item>Gbps</item>
+    </string-array>
+    <string name="title_activity_conversor_de_velocidades">Speed Converter</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_conversor">Conversor de Velocidades</string>
+
+</resources>

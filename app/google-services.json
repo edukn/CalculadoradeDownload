@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "917364520217",
+    "firebase_url": "https://calculadora-de-download.firebaseio.com",
+    "project_id": "calculadora-de-download",
+    "storage_bucket": "calculadora-de-download.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:917364520217:android:ce9715a47df55fd2",
+        "android_client_info": {
+          "package_name": "com.edukian.calculadora_download.calculadoradedownload"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "917364520217-q2rmj6j2elq8gse5b1vvafqjij2f01st.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.edukian.calculadora_download.calculadoradedownload",
+            "certificate_hash": "c61c25306652f4994495f71e7e6ac41341c38bef"
+          }
+        },
+        {
+          "client_id": "917364520217-5s7o2lmu292gfrplmnjcomhevjcb4mqd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSlFL3_RG7Kej4XhSHf1xdbMa_r3P07wA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "917364520217-5s7o2lmu292gfrplmnjcomhevjcb4mqd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
