@@ -54,27 +54,7 @@ public class ContextoDados extends  SQLiteOpenHelper {
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion)
     {
-        /*Log.w(LOG_TAG, "Atualizando a base de dados da versão " + oldVersion + " para " + newVersion + ", que destruirá todos os dados antigos");
-        String sql = "CREATE TABLE tarefas (_id integer primary key autoincrement, titulo text, descrisao text, locao text, datainicial text, datafinal text, pomodoros text, idusr text, status text)";
-        db.beginTransaction();
-
-        try
-        {
-            ExecutarComandosSQL(db, sql);
-            db.setTransactionSuccessful();
-        }
-        catch (SQLException e)
-        {
-            Log.e("Erro ao atualizar as tabelas e testar os dados", e.toString());
-            throw e;
-        }
-        finally
-        {
-            db.endTransaction();
-        }
-
-        // Isto é apenas didático. Na vida real, você terá de adicionar novas colunas e não apenas recriar o mesmo banco
-        onCreate(db);*/
+        
     }
 
     private void ExecutarComandosSQL(SQLiteDatabase db, String sql)
