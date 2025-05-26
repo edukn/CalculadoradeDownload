@@ -2,8 +2,6 @@ package com.edukian.calculadora_download.calculadoradedownload;
 
 import android.content.Context;
 import android.content.DialogInterface;
-//import android.support.v7.app.AlertDialog;
-//import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
@@ -112,7 +110,6 @@ public class ExibeHistorico extends AppCompatActivity {
         registerForContextMenu(listView);
     }
 
-//COLOCAR MEU ID DE ANUNCIO
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -131,7 +128,7 @@ public class ExibeHistorico extends AppCompatActivity {
         builder.setPositiveButton("Ok", new DialogInterface.OnClickListener(){
             @Override
             public void onClick(DialogInterface dialog, int which) {
-                // positive button logic
+               
             }
         });
         AlertDialog dialog = builder.create();
