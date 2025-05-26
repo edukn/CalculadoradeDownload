@@ -2,12 +2,6 @@ package com.edukian.calculadora_download.calculadoradedownload;
 
 import android.content.DialogInterface;
 import android.os.Bundle;
-/*import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.support.v4.app.NavUtils;
-import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;*/
 import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.View;
@@ -51,15 +45,6 @@ public class ConversorActivity extends AppCompatActivity {
         mAdView.loadAd(adRequest);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
-       /* FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });*/
 
         if(getSupportActionBar() != null)
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -160,7 +145,7 @@ public class ConversorActivity extends AppCompatActivity {
         builder.setPositiveButton("Ok", new DialogInterface.OnClickListener(){
             @Override
             public void onClick(DialogInterface dialog, int which) {
-                // positive button logic
+                // logica botao positivo
             }
         });
         AlertDialog dialog = builder.create();
