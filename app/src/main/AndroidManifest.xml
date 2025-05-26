@@ -12,8 +12,8 @@
         tools:ignore="GoogleAppIndexingWarning">
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-7949482326435364~9578133785" />
-            <!--id app real android:value="ca-app-pub-7949482326435364~9578133785" id app real set 23 id app teste ca-app-pub-3940256099942544~3347511713-->
+            android:value="ca-app-pub-//ID DO ANUNCIO" />
+            
         <activity
             android:name=".CalculadoraActivity"
             android:label="Calculadora de Download"
