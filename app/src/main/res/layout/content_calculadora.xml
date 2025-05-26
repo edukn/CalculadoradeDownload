@@ -92,7 +92,7 @@
         android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
         ads:adSize="BANNER"
-        ads:adUnitId="ca-app-pub-7949482326435364/7341494626"
+        ads:adUnitId="ca-app-pub-id anuncio"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -100,9 +100,5 @@
         app:layout_constraintVertical_bias="0.99">
     </com.google.android.gms.ads.AdView>
 
-    <!-- estava antes ads:adUnitId="ca-app-pub-7949482326435364/9332314090"  -->
-
-    <!-- id anuncio 1 real set 23: ca-app-pub-7949482326435364/7341494626 id teste: ca-app-pub-3940256099942544/6300978111-->
-
-    <!-- ads:adUnitId="ca-app-pub-7949482326435364/4965981910" -->
+  
 </androidx.constraintlayout.widget.ConstraintLayout>
