@@ -5,13 +5,6 @@ import android.os.Bundle;
 import android.net.Uri;
 import android.view.MotionEvent;
 import android.view.View;
-/*import android.support.design.widget.NavigationView;
-import android.support.v4.view.GravityCompat;
-import android.support.v4.widget.DrawerLayout;
-import android.support.v7.app.ActionBarDrawerToggle;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
-import androidx.drawerlayout; */
 import android.view.Menu;
 import android.view.MenuItem;
 import android.content.Intent;
@@ -20,9 +13,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.view.View.OnClickListener;
 import android.widget.Spinner;
-//import android.support.v7.app.AlertDialog;
 import com.google.android.gms.ads.AdRequest;
-//import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.MobileAds;
 import com.google.android.gms.ads.initialization.InitializationStatus;
@@ -189,25 +180,10 @@ public class CalculadoraActivity extends AppCompatActivity
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.calculadora, menu);
         return true;
     }
 
-   /* @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
-
-        return super.onOptionsItemSelected(item);
-    }*/
 
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
@@ -402,21 +378,9 @@ public class CalculadoraActivity extends AppCompatActivity
         builder.setPositiveButton("Ok", new DialogInterface.OnClickListener(){
             @Override
             public void onClick(DialogInterface dialog, int which) {
-                // positive button logic
+                // logica botao positivo
             }
         });
-        //String positiveText = getString(android.R.string.ok);
-
-        //String negativeText = getString(android.R.string.cancel);
-
-       /* String negativeText = getString(android.R.string.cancel);
-        builder.setNegativeButton(negativeText,
-                new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        // negative button logic
-                    }
-                });*/
 
 
         AlertDialog dialog = builder.create();
